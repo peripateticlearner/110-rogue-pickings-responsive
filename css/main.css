@@ -162,11 +162,28 @@ footer span {
 }
 
 /********************************* Tablet **************************************/
-@media screen and (min-width: 786px) {
-    
+@media all and (min-width: 786px) {
+    .bottom-section {
+		border-top: 1px solid #eee;
+	}
+	.section-one,
+	.section-two,
+	.section-three {
+		justify-content: center;
+		align-items: center;
+		flex-basis: 30%;
+		flex-flow: row wrap;
+		padding: 10px;
+		border-top: none;
+	}
+
+	.section-one,
+	.section-two {
+		border-right: 1px solid #eee;
+	}
 }
 
 /********************************* Desktop *************************************/
-@media screen and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
     
 }

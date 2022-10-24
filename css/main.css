@@ -26,12 +26,15 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 h1 {
 	font-size: 1.875em;
 }
+
 h2 {
 	font-size: 1.125em;
 }
+
 h3 {
 	font-size: .75em;
 }
@@ -41,8 +44,6 @@ p {
 	line-height: 21px;
   
 }
-
-
 
 /*The widths are in a percentage!*/
 header {
@@ -60,6 +61,7 @@ header h1 {
 	padding: 20px;
 	width: 100%;
 }
+
 header h1 span {
 	color: #77a466;
 }
@@ -71,6 +73,7 @@ header nav {
 header nav ul {
 	padding-left: 0px;
 }
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -78,6 +81,7 @@ header nav ul li {
 
 	list-style: none;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -103,6 +107,7 @@ header nav ul li a{
 	padding: 5px 0;
 	color: #77a466;
 }
+
 .main-title p {
 	font-size: 1em;
 	line-height: 1.563em;
@@ -128,6 +133,7 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -154,6 +160,7 @@ footer {
 	align-items: center;
 	flex-flow: row wrap;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -168,6 +175,7 @@ footer span {
 		display: flex;
 		align-items: flex-start;
 	}
+
 	.section-one,
 	.section-two,
 	.section-three {
